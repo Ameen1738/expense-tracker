@@ -1,81 +1,82 @@
 Expense Tracker (Python CLI App)
 Overview
 
-This is a command-line Expense Tracker built using Python. It allows users to manage their personal finances by tracking expenses, monitoring balance, and categorising spending.
+The Expense Tracker is a simple Python command-line application that allows users to manage their personal finances by tracking expenses, monitoring their balance, and categorising spending.
 
-The project demonstrates core programming concepts such as functions, loops, dictionaries, lists, and user input handling.
+The program lets the user set a starting balance, add expenses with categories, and view summaries of total spending and spending habits.
 
-It was developed to simulate a real-world budgeting tool and improve my Python programming skills.
+This project was created to practise Python fundamentals and improve my understanding of functions, loops, dictionaries, and user input handling.
 
 Features
-Set a starting balance
-Add expenses with categories
+Sets a starting balance for the user
+Adds expenses with categories
 Automatically updates remaining balance
-Tracks total money spent
-Stores spending by category
+Tracks total amount spent
+Stores spending by category using a dictionary
 Displays spending habits summary
-Interactive menu system
-Colour-coded terminal output
+Interactive menu system for user navigation
+Colour-coded terminal output for better readability
 Sound feedback for actions (Windows only)
 Technologies Used
 Python 3
-winsound (Windows sound alerts)
+winsound (for sound feedback on Windows)
 ANSI escape codes for terminal colours
-How to Run
+Getting Started
+Prerequisites
+Python 3 installed on your computer
+Installation
+
 Clone the repository:
+
 git clone https://github.com/Ameen1738/expense-tracker.git
-Navigate into the folder:
+
+Navigate to the project folder:
+
 cd expense-tracker
+
 Run the program:
+
 python expense_tracker.py
-Example Usage
+Example Output
+Welcome, Ameenur!  
+Current balance: £500  
 
-Welcome, Ameenur!
-Current balance: £500
-
---- Expense Tracker Menu ---
-
-Add expense
-Show total spent
-Show spending habits
-Show balance
-Exit
-Project Structure
-
-expense-tracker/
-├── expense_tracker.py
-└── README.md
-
+--- Expense Tracker Menu ---  
+1. Add expense  
+2. Show total spent  
+3. Show spending habits  
+4. Show balance  
+5. Exit  
 Skills Demonstrated
-Python functions
+User input handling
+Functions and modular programming
 Loops and control flow
 Dictionaries and lists
-User input handling
 Data tracking and state management
-Menu-driven applications
-Basic software design
+Menu-driven application design
+Basic software structure
 What I Learned
 
-This project helped me understand how to structure a full Python application with multiple interacting components.
+Through this project I developed a stronger understanding of how to build a structured Python application with multiple interacting components.
 
-Key learning points:
+It helped me improve in:
 
 Managing program state (balance and expenses)
-Using dictionaries for category tracking
-Building interactive CLI menus
-Organising code into reusable functions
+Using dictionaries to organise data by category
+Building interactive command-line menus
+Structuring larger Python programs using functions
 Future Improvements
-Save data to a file (CSV or JSON)
-Add monthly budget limits
-Generate spending charts
-Create a graphical interface (GUI)
-Add user accounts
+
+Potential improvements include:
+
+Save expenses to a file (CSV or JSON)
+Add monthly budgeting limits
+Generate visual charts for spending
+Build a graphical user interface (GUI)
+Add multiple user accounts
 Export financial reports
-Important Note
-
-winsound only works on Windows systems. Future versions could include cross-platform sound support.
-
 Author
 
 Ameen Khan
-Aspiring Software Engineer focused on building practical Python projects and improving development skills through hands-on experience.
+
+Software Engineering graduate with an interest in Python, web development, and building practical software projects while continuously improving my development skills.
